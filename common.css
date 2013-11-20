@@ -1,0 +1,212 @@
+﻿/*基本設定*/
+body{
+	font-family:"Hiragino Kaku Gothic Pro",HiraKakuPro-W3,"ヒラギノ角ゴ Pro W3","メイリオ", Meiryo,"ＭＳ Ｐゴシック",verdana,sans-serif;
+	font-size:12px;
+}
+
+
+/*リンクのスタイル(忍者ツールズの広告を守るため)*/
+.a{
+	color:whitesmoke;
+	text-decoration: none;
+}
+
+a{
+	color:#333333;
+	text-decoration: none;
+}
+
+/*リストのスタイル*/
+li{
+	border-bottom:1px solid lightskyblue;
+	border-bottom-style:dotted;
+	list-style-type:square;
+	padding:5px;
+    line-height:1.8;
+    text-indent:20px;
+}
+
+.menu ul {
+   margin:0;
+   padding:0;
+}
+
+/*一番上のタイトルスタイル*/
+h1{
+	font-size:13px;
+	color:#666666;
+}
+
+/*ページのおおまかなレイアウト*/
+.top{
+	margin:0 auto;
+	width:840px;
+}
+
+.main{
+	width:840px;
+	float:left;
+	margin:0 auto;
+    position:relative;
+    background-color:white;
+    border-radius:5px;
+    background-color:white;
+}
+
+/*通常のパネル*/
+.panel{
+	width:620px;
+	float:left;
+	background-color:royalblue;
+	color:white;
+	border:5px white solid;
+}
+
+.panel p{
+	text-indent:10px;
+}
+
+.panel br{
+	text-indent:10px;
+}
+
+/*メニュー部分*/
+.menu{
+	width:200px;
+	float:right;
+	background-color:royalblue;
+	color:white;
+	border:5px white solid;
+}
+
+
+
+/*特大パネルのスタイル*/
+.panel-xbig{
+	width:410px;
+	height:100px;
+	float:left;
+	background-color:royalblue;
+	color:ghostwhite;
+	border:5px white solid;
+}
+
+
+/*大パネルのスタイル*/
+.panel-big{
+	width:200px;
+	height:100px;
+	float:left;
+	background-color:royalblue;
+	color:ghostwhite;
+	border:5px white solid;
+}
+
+/*小パネルのスタイル*/
+.panel-small{
+	width:95px;
+	height:100px;
+	float:left;
+	background-color:royalblue;
+	color:ghostwhite;
+	border:5px white solid;
+}
+
+/*小パネルのスタイル（右側のみ線なし、ページが崩れるようであれば使う、基本利用しない）*/
+.panel-small-fix{
+	width:95px;
+	height:100px;
+	float:left;
+	background-color:royalblue;
+	color:ghostwhite;
+	border-top:5px white solid;
+	border-left:5px white solid;
+	border-bottom:5px white solid;
+}
+
+/*お知らせパネル(重要なこととかを強調するため)*/
+.urgent{
+	width:410px;
+	height:100px;
+	float:left;
+	background-color:orangered;
+	color:ghostwhite;
+	border:5px white solid;
+}
+
+
+/*TOP画像の周りに青い線を引くスタイル*/
+.flame{
+	border: 8px #0066FF solid;
+}
+
+/*TOP画像をセンタリング*/
+.flame-center{
+	text-align:center;
+}
+
+/*コピーライトのスタイル*/
+.copyright{
+	width:840px;
+	color:darkgrey;
+	font-size:10px;
+	text-align:center;
+}
+
+/*空白を作る*/
+.none{
+	height:10px;
+	width:830px;
+}
+
+
+/*panel-bigでh2を使った時のスタイル*/
+h2{
+	color:whitesmoke;
+	margin-bottom:5px;
+	font-weight:bold;
+	text-indent:0.5em;
+	font-size:16px;
+	border-bottom:3px;
+	border-bottom-color:dodgerblue;
+	border-bottom-style:solid;
+}
+
+.urgent h2{
+	color:whitesmoke;
+	margin-bottom:5px;
+	font-weight:bold;
+	text-indent:0.5em;
+	font-size:15px;
+	border-bottom:3px;
+	border-bottom-color:darkorange;
+	border-bottom-style:solid;
+}
+
+.box{
+	background-color:cornflowerblue;
+	position: relative;
+	top:5px;
+	left:10px;
+	width:180px;
+	height:30px;
+	font-size:20px;
+	color:ghostwhite;
+	text-align:center;
+	vertical-align:middle;
+	display:block;
+}
+
+.box-s{
+	background-color:cornflowerblue;
+	position: relative;
+	top:5px;
+	left:10px;
+	width:75px;
+	height:30px;
+	font-size:20px;
+	color:ghostwhite;
+	text-align:center;
+	vertical-align:middle;
+}
+
