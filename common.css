@@ -11,6 +11,12 @@ body{
         text-decoration: none;
 }
 
+.link{
+        color:whitesmoke;
+        font-size:large;
+        text-decoration:underline;
+}
+
 a{
         color:#333333;
         text-decoration: none;
@@ -22,13 +28,13 @@ li{
         border-bottom-style:dotted;
         list-style-type:square;
         padding:5px;
-    line-height:1.8;
-    text-indent:20px;
+        line-height:1.8;
+        text-indent:20px;
 }
 
 .menu ul {
-   margin:0;
-   padding:0;
+        margin:0;
+        padding:0;
 }
 
 /*一番上のタイトルスタイル*/
@@ -47,10 +53,10 @@ h1{
         width:840px;
         float:left;
         margin:0 auto;
-    position:relative;
-    background-color:white;
-    border-radius:5px;
-    background-color:white;
+        position:relative;
+        background-color:white;
+        border-radius:5px;
+        background-color:white;
 }
 
 /*通常のパネル*/
